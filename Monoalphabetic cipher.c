@@ -18,8 +18,8 @@ int main() {
         str2[i] = monocipher_encr(str[i]);
     }
     str2[i] = '\0';
-    printf("\n Before Decryption..%s", str);
-    printf("\n After Decryption..%s\n", str2);
+    printf("\n Before Encryption..%s", str);
+    printf("\n After Encryption..%s\n", str2);
     return 0;
 }
 char monocipher_encr(char a) {
